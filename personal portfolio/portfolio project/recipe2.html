@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chicken Stir Fry Recipe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipe1.html">Recipe 1</a></li>
+        <li><a href="recipe2.html">Recipe 2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="recipe">
+    <div class="recipe-card">
+      <h1>🍗 Chicken Stir Fry</h1>
+      <img src="images/stirfry.jpg" alt="Chicken Stir Fry" />
+      <h2>Ingredients</h2>
+      <ul class="recipe-list">
+        <li>2 chicken breasts</li>
+        <li>1 bell pepper</li>
+        <li>1 onion</li>
+        <li>2 tbsp soy sauce</li>
+        <li>1 tbsp sesame oil</li>
+      </ul>
+      <h2>Instructions</h2>
+      <ol class="recipe-steps">
+        <li>Slice chicken and cook in sesame oil.</li>
+        <li>Add sliced peppers and onions.</li>
+        <li>Add soy sauce and stir-fry till done.</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Nkurumah Lucky Asumo</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

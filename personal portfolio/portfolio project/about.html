@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Lucky Asumo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipe1.html">Recipe 1</a></li>
+        <li><a href="recipe2.html">Recipe 2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <div class="about-container">
+      <img src="images/lucky.jpg" alt="Lucky Asumo Profile" class="profile-pic" />
+      <div class="about-content">
+        <h1>👋 About Me</h1>
+        <p>Hello! I'm <strong>Lucky Asumo</strong>, a student at JKUAT studying Bsc. Medical Microbiology. I'm also a jazz musician, Alliance High School alumnus, and a Christian at heart.</p>
+
+        <h2>💻 Skills</h2>
+        <ul class="about-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+
+        <h2>🎉 Fun Facts</h2>
+        <ul class="about-list">
+          <li>🍳 I love trying new recipes</li>
+          <li>🎸 I enjoy playing music</li>
+          <li>👨‍👩‍👧‍👦 I value time with close friends</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Connect with me: <a href="mailto:visibwalucky@gmail.com">Email Me</a></p>
+    <p>&copy; <span id="year"></span> Nkurumah Lucky Asumo</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

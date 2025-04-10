@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spaghetti Carbonara Recipe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipe1.html">Recipe 1</a></li>
+        <li><a href="recipe2.html">Recipe 2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="recipe">
+    <div class="recipe-card">
+      <h1>🍝 Spaghetti Carbonara</h1>
+      <img src="images/carbonara.jpg" alt="Spaghetti Carbonara" />
+      <h2>Ingredients</h2>
+      <ul class="recipe-list">
+        <li>200g spaghetti</li>
+        <li>100g pancetta</li>
+        <li>2 eggs</li>
+        <li>50g Parmesan cheese</li>
+        <li>Black pepper</li>
+      </ul>
+      <h2>Instructions</h2>
+      <ol class="recipe-steps">
+        <li>Cook the spaghetti according to package instructions.</li>
+        <li>Fry the pancetta until crispy.</li>
+        <li>Whisk the eggs with Parmesan and black pepper.</li>
+        <li>Mix everything while pasta is warm to create a creamy sauce.</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Nkurumah Lucky Asumo</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
